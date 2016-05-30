@@ -1,8 +1,8 @@
-" This colorscheme is based on Solarized-dark colors, setting the
-" approximate values for the Solarized palette, using the
+" This colorscheme is based on Revolution-dark colors, setting the
+" approximate values for the Revolution palette, using the
 " XTERM limited 256 terminal color values.
 call Pl#Hi#Allocate({
-	\ 'darkestblue'    : 24,
+	\ 'darkestblue'    : 64,
 	\
 	\ 'base03'         : [234, 0x002b36],
 	\ 'base02'         : [235, 0x073642],
@@ -12,17 +12,17 @@ call Pl#Hi#Allocate({
 	\ 'base1'          : [245, 0x93a1a1],
 	\ 'base2'          : [254, 0xeee8d5],
 	\ 'base3'          : [230, 0xfdf6e3],
-	\ 'yellow'         : [136, 0xb58900],
-	\ 'orange'         : [166, 0xcb4b16],
-	\ 'red'            : [160, 0xdc322f],
-	\ 'magenta'        : [125, 0xd33682],
-	\ 'violet'         : [61, 0x6c71c4],
-	\ 'blue'           : [33, 0x268bd2],
-	\ 'cyan'           : [37, 0x2aa198],
+	\ 'yellow'         : [64, 0xb58900],
+	\ 'orange'         : [64, 0xcb4b16],
+	\ 'red'            : [64, 0xdc322f],
+	\ 'magenta'        : [64, 0xd33682],
+	\ 'violet'         : [64, 0x6c71c4],
+	\ 'blue'           : [64, 0x268bd2],
+	\ 'cyan'           : [64, 0x2aa198],
 	\ 'green'          : [64, 0x859900],
 	\ })
 
-let g:Powerline#Colorschemes#solarized256_dark#colorscheme= Pl#Colorscheme#Init([
+let g:Powerline#Colorschemes#revolution256_dark#colorscheme= Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
 		\ 'n': ['base3', 'base02'],
 		\ 'N': ['base3', 'base02'],
